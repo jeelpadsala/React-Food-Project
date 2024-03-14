@@ -77,6 +77,7 @@ const cartSlice = createSlice({
         },
 
         // delete items
+        // 
 
         deleteItem(state, action) {
             const id = action.payload
